@@ -77,7 +77,7 @@ body {
 @media(max-width: 500px){
 
 .link {
-    padding-left: 2.9rem;
+    padding-left: 8rem;
 }
 
 .name,
@@ -99,10 +99,13 @@ body {
 }
 
 .btn {
-    width: 80%;
+    width: 70%;
     padding: 9px 5px;
 }
-
+.form {
+    margin: 0px;
+    width: 70%;
+}
 
 
 
