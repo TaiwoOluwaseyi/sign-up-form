@@ -17,37 +17,43 @@
   <body>
     <div class="form">
       <nav class="link">Already a member? <a href="#">Sign in</a></nav>
-      <header>
-        <h3>Sign up to Dribble</h3>
-        <button>
+
+        <h1>Sign up to Dribble</h1>
+
+          <button class="google">
           <i class="fab fa-google"></i>
           sign up with Google
         </button>
-
+        
         <button>
           <i class="fab fa-twitter"></i>
         </button>
-
+        
         <button>
           <i class="fab fa-facebook"></i>
         </button>
       </header>
+      <p>Or</p>
 
-      <span class="or-line">Or</span>
-
-      <main class="info">
-        <div class="full">
-          <p><strong>Full Name</strong></p>
+      <div class="info">
+        <div>
+          <div class="name">
+            <p><strong>Full Name</strong></p>
             <input type="text" class="form-input" />
-        </div>
-          
+          </div>
+
           <div class="user">
             <p><strong>Username</strong></p>
             <input type="text" class="form-input" />
           </div>
+        </div>
 
-
-        <p><strong>Email <Address></Address></strong></p>
+        <p>
+          <strong
+            >Email
+            <address></address
+          ></strong>
+        </p>
         <input type="email" class="input-form" />
 
         <p><strong>Password</strong></p>
@@ -58,14 +64,15 @@
           required
         />
 
-        <p>
-          Creating an account means you're okay with our
+        <div class="checkbox">
+        <input type="checkbox" id="text" name="profile" value="profile">
+  <label for="profile"> 
+Creating an account means you're okay with our
           <a href="#">Terms of Service, Privacy Policy.</a> and our default
-          <a href="#">Notifications Settings</a>
-        </p>
-
+          <a href="#">Notifications Settings</a></label><br>
+  </div>
         <button class="btn">Create Account</button>
       </main>
     </div>
   </body>
-
+</html>

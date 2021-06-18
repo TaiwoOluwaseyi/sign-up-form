@@ -11,9 +11,23 @@ body {
     background-color: white;
     width: 50%;
     margin: auto;
+    margin-top: 3%;
+    max-width: 650px;
 }
 
-.form-input {
+ .link {
+     padding-left: 25em;
+ }
+ .google {
+     outline: none;
+    border: 1px solid #ccc;
+    padding: 7px 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    width: 30%;
+ }
+.form-input ,.input-form{
     outline: none;
     border: 1px solid #ccc;
     padding: 7px 5px;
@@ -21,24 +35,25 @@ body {
     background-color: rgba(255, 253, 253, 0.89);
 }
  .input-form{
-    background-color: rgba(255, 253, 253, 0.89);
-    outline: none;
-    border: 1px solid #ccc;
-    padding: 7px 5px;
-    border-radius: 5px;
     width: 70%;
 }
-
-.full, .user {
+.user {
+    margin-left: 13.5%;
+}
+.name, .user {
     display: inline-block;
 }
-
+.checkbox {
+    margin-top: 3%;
+}
 .btn{
     padding: 0.625;
-    border-radius: 1px solid tomato;
-    background-color: tomato;
+    border-radius: 1px solid rgb(202, 49, 74);
+    background-color: rgb(202, 49, 74);
     color:white;
     outline: none;
     padding: 7px 5px;
     border-radius: 5px;
+    width: 35%;
+    margin-top: 3%;
 }
