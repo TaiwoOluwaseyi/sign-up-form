@@ -16,7 +16,10 @@ body {
 }
 
 .link {
-  padding-left: 25em;
+  text-align: right;
+}
+label {
+  margin-bottom: 0.7rem;
 }
 .google {
   outline: none;
@@ -36,15 +39,9 @@ body {
   background-color: rgba(255, 253, 253, 0.89);
 }
 .input-form {
-  width: 70%;
+  width: 10 0%;
 }
-.user {
-  margin-left: 13.5%;
-}
-.name,
-.user {
-  display: inline-block;
-}
+
 .checkbox {
   margin-top: 3%;
 }
@@ -54,8 +51,8 @@ body {
   flex-direction: row;
 }
 
-.underline:before,
-.underline:after {
+.underline::before,
+.underline::after {
   content: "";
   flex: 1 1;
   border-bottom: 1px solid #000;
@@ -72,41 +69,43 @@ body {
   width: 30%;
   margin-top: 3%;
 }
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-
-@media(max-width: 500px){
-
-.link {
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  width: 100%;
+}
+.user,
+.name {
+  width: 48%;
+}
+@media (max-width: 500px) {
+  .link {
     padding-left: 8rem;
-}
-
-.name,
-.user {
-  display: block;
-}
-
-.user {
-    margin-left: 0;
-}
-
-.input-form {
-    width: 75%;
-}
-
-.checkbox {
+  }
+  .user,
+  .name {
+    width: 100%;
+  }
+  .checkbox {
     margin-top: 7%;
     line-height: 2em;
-}
+  }
 
-.btn {
+  .btn {
     width: 70%;
     padding: 9px 5px;
-}
-.form {
-    margin: 0px;
-    width: 70%;
-}
-
-
-
+  }
+  .form {
+    margin: 0px auto;
+    width: 85%;
+  }
+  /*  */
 }

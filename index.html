@@ -14,66 +14,64 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
     <div class="form">
-      <nav class="link">Already a member? <a href="#">Sign in</a></nav>
+      <nav class="link">
+        <p>Already a member? <a href="#">Sign in</a></p>
+      </nav>
+      <h1>Sign Up To Dribble</h1>
+      <button class="google">
+        <i class="fab fa-google"></i>
+        sign up with Google
+      </button>
+      <button>
+        <i class="fab fa-twitter"></i>
+      </button>
 
-        <h1>Sign Up To Dribble</h1>
-
-          <button class="google">
-          <i class="fab fa-google"></i>
-          sign up with Google
-        </button>
-        
-        <button>
-          <i class="fab fa-twitter"></i>
-        </button>
-        
-        <button>
-          <i class="fab fa-facebook"></i>
-        </button>
-      </header>
+      <button>
+        <i class="fab fa-facebook"></i>
+      </button>
 
       <p class="underline">OR</p>
-
-      <div class="info">
-        <div>
-          <div class="name">
-            <p><strong>Full Name</strong></p>
-            <input type="text" class="form-input" />
+      <form action="">
+        <div class="info">
+          <div class="name form-group">
+            <label for="name">Full Name:</label>
+            <input id="name" type="text" class="form-input" />
           </div>
 
-          <div class="user">
-            <p><strong>Username</strong></p>
-            <input type="text" class="form-input" />
+          <div class="user form-group">
+            <label for="text">Username:</label>
+            <input id="text" type="text" class="form-input" />
           </div>
         </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" class="input-form" />
+        </div>
 
-        <p>
-          <strong
-            >Email
-            <address></address
-          ></strong>
-        </p>
-        <input type="email" class="input-form" />
-
-        <p><strong>Password</strong></p>
-        <input
-          class="input-form"
-          type="text"
-          placeholder="6+ characters"
-          required
-        />
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input
+            class="input-form"
+            type="text"
+            id="password"
+            placeholder="6+ characters"
+            required
+          />
+        </div>
 
         <div class="checkbox">
-        <input type="checkbox" id="text" name="profile" value="profile">
-Creating an account means you're okay with our
-          <a href="#">Terms of Service, Privacy Policy.</a> and our default
-          <a href="#">Notifications Settings</a></label><br>
-          <label for="profile"> 
-  </div>
+          <input type="checkbox" id="checkbox" name="profile" value="profile" />
+          Creating an account means you're okay with our
+          <label for="checkbox"
+            ><a href="#">Terms of Service, Privacy Policy.</a> and our default
+            <a href="#">Notifications Settings</a><br
+          /></label>
+        </div>
         <button class="btn">Create Account</button>
-      </main>
+      </form>
     </div>
   </body>
 </html>
