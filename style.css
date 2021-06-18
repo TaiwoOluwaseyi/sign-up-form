@@ -25,7 +25,7 @@ body {
   border-radius: 5px;
   background-color: blue;
   color: white;
-  width: 30%;
+  /* width: 30%; */
 }
 .form-input,
 .input-form {
@@ -69,6 +69,41 @@ body {
   outline: none;
   padding: 7px 5px;
   border-radius: 5px;
-  width: 35%;
+  width: 30%;
   margin-top: 3%;
+}
+
+
+@media(max-width: 500px){
+
+.link {
+    padding-left: 2.9rem;
+}
+
+.name,
+.user {
+  display: block;
+}
+
+.user {
+    margin-left: 0;
+}
+
+.input-form {
+    width: 75%;
+}
+
+.checkbox {
+    margin-top: 7%;
+    line-height: 2em;
+}
+
+.btn {
+    width: 80%;
+    padding: 9px 5px;
+}
+
+
+
+
 }
